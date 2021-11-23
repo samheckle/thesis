@@ -1,0 +1,27 @@
+.window {
+    width: 500px;
+    height: 400px;
+    background-color: 'grey';
+    border: 2px solid grey;
+    position: absolute;
+}
+.window-top{
+    width: inherit;
+    height: 20px;
+    background-color: grey;
+    text-align: center;
+    position: relative;
+}
+.window-title{
+    width: auto;
+    display:inline;
+}
+.window-button{
+    display: inline;
+    position: absolute;
+    right:0;
+
+    /* remove styling*/
+    background: none;
+    border: none;
+}
